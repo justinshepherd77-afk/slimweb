@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>SlimV1 — SVG Country Buttons</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">SlimV1 · Countries</div>
+    <div class="hint">White background · SVG map · Clickable country buttons · No data yet</div>
+  </header>
+  <main>
+    <svg id="world" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="World map">
+      <rect x="0" y="0" width="1000" height="520" fill="#ffffff"/>
+      <g stroke="#eeeeee" stroke-width="1">
+        <line x1="125" y1="0" x2="125" y2="520"/><line x1="250" y1="0" x2="250" y2="520"/>
+        <line x1="375" y1="0" x2="375" y2="520"/><line x1="500" y1="0" x2="500" y2="520"/>
+        <line x1="625" y1="0" x2="625" y2="520"/><line x1="750" y1="0" x2="750" y2="520"/>
+        <line x1="875" y1="0" x2="875" y2="520"/>
+        <line x1="0" y1="130" x2="1000" y2="130"/><line x1="0" y1="260" x2="1000" y2="260"/>
+        <line x1="0" y1="390" x2="1000" y2="390"/>
+      </g>
+      <g id="country-buttons">
+        <g class="btn" data-country="Canada"><circle cx="190" cy="120" r="8"/><text x="205" y="125">Canada</text></g>
+        <g class="btn" data-country="USA"><circle cx="210" cy="170" r="8"/><text x="225" y="175">USA</text></g>
+        <g class="btn" data-country="Mexico"><circle cx="195" cy="205" r="8"/><text x="210" y="210">Mexico</text></g>
+        <g class="btn" data-country="Brazil"><circle cx="300" cy="300" r="8"/><text x="315" y="305">Brazil</text></g>
+        <g class="btn" data-country="Argentina"><circle cx="300" cy="380" r="8"/><text x="315" y="385">Argentina</text></g>
+        <g class="btn" data-country="UK"><circle cx="500" cy="140" r="8"/><text x="515" y="145">UK</text></g>
+        <g class="btn" data-country="France"><circle cx="515" cy="160" r="8"/><text x="530" y="165">France</text></g>
+        <g class="btn" data-country="Germany"><circle cx="530" cy="150" r="8"/><text x="545" y="155">Germany</text></g>
+        <g class="btn" data-country="Spain"><circle cx="500" cy="180" r="8"/><text x="515" y="185">Spain</text></g>
+        <g class="btn" data-country="Italy"><circle cx="535" cy="175" r="8"/><text x="550" y="180">Italy</text></g>
+        <g class="btn" data-country="Egypt"><circle cx="565" cy="205" r="8"/><text x="580" y="210">Egypt</text></g>
+        <g class="btn" data-country="South Africa"><circle cx="555" cy="380" r="8"/><text x="570" y="385">South Africa</text></g>
+        <g class="btn" data-country="Nigeria"><circle cx="520" cy="270" r="8"/><text x="535" y="275">Nigeria</text></g>
+        <g class="btn" data-country="Russia"><circle cx="650" cy="120" r="8"/><text x="665" y="125">Russia</text></g>
+        <g class="btn" data-country="Turkey"><circle cx="580" cy="180" r="8"/><text x="595" y="185">Turkey</text></g>
+        <g class="btn" data-country="Saudi Arabia"><circle cx="610" cy="225" r="8"/><text x="625" y="230">Saudi Arabia</text></g>
+        <g class="btn" data-country="India"><circle cx="690" cy="250" r="8"/><text x="705" y="255">India</text></g>
+        <g class="btn" data-country="China"><circle cx="750" cy="180" r="8"/><text x="765" y="185">China</text></g>
+        <g class="btn" data-country="Japan"><circle cx="830" cy="180" r="8"/><text x="845" y="185">Japan</text></g>
+        <g class="btn" data-country="Mongolia"><circle cx="740" cy="160" r="8"/><text x="755" y="165">Mongolia</text></g>
+        <g class="btn" data-country="Indonesia"><circle cx="770" cy="320" r="8"/><text x="785" y="325">Indonesia</text></g>
+        <g class="btn" data-country="Australia"><circle cx="860" cy="360" r="8"/><text x="875" y="365">Australia</text></g>
+        <g class="btn" data-country="New Zealand"><circle cx="920" cy="380" r="8"/><text x="935" y="385">New Zealand</text></g>
+      </g>
+    </svg>
+  </main>
+  <footer class="footer">Layer 1 of N — Countries only (SVG). We’ll add cities/summary/categories next.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
